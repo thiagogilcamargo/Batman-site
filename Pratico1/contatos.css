@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: #d80000;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 65px;
+}
+
+.contact-box {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    margin-top: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 20px;
+    width: 200px;
+    margin-right:1000px;
+  }
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 50px;
+  width: 400px;
+  float: right;
+  margin-top: -250px;
+
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-family: "Kdam Thmor Pro", sans-serif ;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333333;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 5px;
+  font-family: "Kdam Thmor Pro", sans-serif ;
+} 
+
+input[type="submit"] {
+  background-color: #d80000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  font-family: "Kdam Thmor Pro", sans-serif ;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+    color:#000;
+
+}
+
+input[type="submit"]:active {
+  background-color: #d80000;
+}
+
+textarea {
+  height: 150px;
+}
+
+footer {
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+span{
+  color: #fff;
+  font-family: "Kdam Thmor Pro", sans-serif;
+
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+}
+
+.logo2{
+  width: 200px;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .contact-box {
+    margin: 20px auto;
+  }
+  
+  form {
+    width: 80%;
+  }
+}
